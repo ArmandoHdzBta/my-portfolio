@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/mandohub.me/my-portfolio/static/css/main.f267ba92.css",
-    "main.js": "/mandohub.me/my-portfolio/static/js/main.89f83a44.js",
-    "static/js/787.752e8b71.chunk.js": "/mandohub.me/my-portfolio/static/js/787.752e8b71.chunk.js",
-    "static/media/background_parallax.png": "/mandohub.me/my-portfolio/static/media/background_parallax.8c1cf719387ae9084b79.png",
-    "static/media/proyecto1.jpg": "/mandohub.me/my-portfolio/static/media/proyecto1.6e6397d48db6ef49344f.jpg",
-    "index.html": "/mandohub.me/my-portfolio/index.html",
-    "main.f267ba92.css.map": "/mandohub.me/my-portfolio/static/css/main.f267ba92.css.map",
-    "main.89f83a44.js.map": "/mandohub.me/my-portfolio/static/js/main.89f83a44.js.map",
-    "787.752e8b71.chunk.js.map": "/mandohub.me/my-portfolio/static/js/787.752e8b71.chunk.js.map"
+    "main.css": "/my-portfolio/static/css/main.d7801c88.css",
+    "main.js": "/my-portfolio/static/js/main.09368c7c.js",
+    "static/js/787.752e8b71.chunk.js": "/my-portfolio/static/js/787.752e8b71.chunk.js",
+    "static/media/background_parallax.png": "/my-portfolio/static/media/background_parallax.8c1cf719387ae9084b79.png",
+    "static/media/proyecto1.jpg": "/my-portfolio/static/media/proyecto1.6e6397d48db6ef49344f.jpg",
+    "index.html": "/my-portfolio/index.html",
+    "main.d7801c88.css.map": "/my-portfolio/static/css/main.d7801c88.css.map",
+    "main.09368c7c.js.map": "/my-portfolio/static/js/main.09368c7c.js.map",
+    "787.752e8b71.chunk.js.map": "/my-portfolio/static/js/787.752e8b71.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f267ba92.css",
-    "static/js/main.89f83a44.js"
+    "static/css/main.d7801c88.css",
+    "static/js/main.09368c7c.js"
   ]
 }
