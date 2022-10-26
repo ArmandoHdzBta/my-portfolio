@@ -1,0 +1,23 @@
+.avatar {
+    width: 10vw;
+    min-width: 10vw;
+    height: 21vh;
+    min-height: 21vh;
+    background-color: darkblue;
+    overflow: hidden;
+    object-fit: cover !important;
+}
+
+.avatar-img {
+    object-fit: cover !important;
+}
+
+.text-info {
+    color: #FFFFFF !important;
+    font-size: .8em;
+}
+
+.text-subtitle {
+    font-size: 3vh;
+    color: #00d4ff;
+}

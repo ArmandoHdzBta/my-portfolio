@@ -1,0 +1,28 @@
+.fit {
+    object-fit: cover !important;
+}
+
+/* .card {
+    background: none !important;
+    overflow: hidden;
+    border: none;
+    margin: .09rem;
+    width: 13.3rem !important;
+} */
+
+.card:hover {
+    cursor: pointer;
+    filter: blur(2px) brightness(0.88);
+}
+
+.card img {
+    transition: transform .2s;
+}
+
+.card img:hover {
+    transform: scale(1.2);
+}
+
+.circle-size {
+    font-size: .5rem;
+}
