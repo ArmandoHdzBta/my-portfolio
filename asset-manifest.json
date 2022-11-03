@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/my-portfolio/static/css/main.bb35f65d.css",
-    "main.js": "/my-portfolio/static/js/main.a197ad0d.js",
+    "main.css": "/my-portfolio/static/css/main.03f13b4c.css",
+    "main.js": "/my-portfolio/static/js/main.6f96d4af.js",
     "static/js/787.752e8b71.chunk.js": "/my-portfolio/static/js/787.752e8b71.chunk.js",
+    "static/media/codyVacaciones.png": "/my-portfolio/static/media/codyVacaciones.3c4d579e1e6bc8024523.png",
     "static/media/proyecto1.jpg": "/my-portfolio/static/media/proyecto1.6e6397d48db6ef49344f.jpg",
-    "static/media/avatar.jpg": "/my-portfolio/static/media/avatar.68f8aa7bf0ec6f4319a4.jpg",
     "index.html": "/my-portfolio/index.html",
-    "main.bb35f65d.css.map": "/my-portfolio/static/css/main.bb35f65d.css.map",
-    "main.a197ad0d.js.map": "/my-portfolio/static/js/main.a197ad0d.js.map",
+    "main.03f13b4c.css.map": "/my-portfolio/static/css/main.03f13b4c.css.map",
+    "main.6f96d4af.js.map": "/my-portfolio/static/js/main.6f96d4af.js.map",
     "787.752e8b71.chunk.js.map": "/my-portfolio/static/js/787.752e8b71.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.bb35f65d.css",
-    "static/js/main.a197ad0d.js"
+    "static/css/main.03f13b4c.css",
+    "static/js/main.6f96d4af.js"
   ]
 }
