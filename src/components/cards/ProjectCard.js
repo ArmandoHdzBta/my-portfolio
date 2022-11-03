@@ -1,19 +1,17 @@
-import { Link } from "react-router-dom";
+import './ProjectCard.css'
 
-const ProjectCard = ({title, image, children, to, urlText}) => {
+const ProjectCard = ({image, active, title, description, to}) => {
     return (
-        <>
-            <div className="card m-2" style={{ width: "18rem" }}>
-                <img classNameName="card-img-top" src={image} alt="Project card" />
-                <div className="card-body">
-                    <h5 className="card-title">{title}</h5>
-                    <p className="card-text">{children}</p>
-                    <Link to={to}>
-                        {urlText}
-                    </Link>
+        
+        <div className={`carousel-item bg-little-dark ${active ?? ''}`}>
+            <a href={to}>
+                <img src={image} className="d-block w-100 image-fit" alt="poject cover" />
+                <div className="carousel-caption d-none d-md-block">
+                    <h5>{title}</h5>
+                    <p>{description}</p>
                 </div>
-            </div>
-        </>
+            </a>
+        </div>
     );
 };
 

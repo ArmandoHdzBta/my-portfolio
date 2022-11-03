@@ -2,27 +2,34 @@
     object-fit: cover !important;
 }
 
-/* .card {
+.card {
     background: none !important;
     overflow: hidden;
     border: none;
     margin: .09rem;
-    width: 13.3rem !important;
-} */
-
-.card:hover {
-    cursor: pointer;
-    filter: blur(2px) brightness(0.88);
+    width: 15rem !important;
 }
 
-.card img {
+/* .project-container {
+    display:inline-block;
+    position:relative;
+} */
+
+/* .card img {
     transition: transform .2s;
 }
 
 .card img:hover {
     transform: scale(1.2);
 }
+*/
 
 .circle-size {
     font-size: .5rem;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.circle-size:hover,
+.circle-size.active {
+    color: rgba(255, 255, 255, 0.9);
 }

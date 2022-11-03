@@ -1,40 +1,39 @@
-import './myProjects.css'
-import image from '../../images/proyecto1.jpg'
+import "./myProjects.css";
+import image from "../../images/proyecto1.jpg";
+import ProjectCard from "../cards/ProjectCard";
+import React from "react";
 
-const MyProjects = () => {
+const MyProjects = ({children}) => {
     return (
-        <div>
+        <>
             <h4 className="text-center text-white">Mis proyectos</h4>
-            <div className='w-75 m-auto'>
-                <div className='col-12'>
-                    <div className="row">
-                        <div className="card proyect-card p-0">
-                            <img classNameName="card-img-top fit" src={image} alt="Project card" />
-                        </div>
-                        <div className="card proyect-card p-0">
-                            <img classNameName="card-img-top fit" src={image} alt="Project card" />
-                        </div>
-                        <div className="card proyect-card p-0">
-                            <img classNameName="card-img-top fit" src={image} alt="Project card" />
-                        </div>
-                        <div className="card proyect-card p-0">
-                            <img classNameName="card-img-top fit" src={image} alt="Project card" />
-                        </div>
-                        <div className="card proyect-card p-0">
-                            <img classNameName="card-img-top fit" src={image} alt="Project card" />
-                        </div>
-                        <div className="card proyect-card p-0">
-                            <img classNameName="card-img-top fit" src={image} alt="Project card" />
-                        </div>
-                    </div>
+            <div id="carouselExampleIndicators" className="carousel slide mb-3 mt-4" data-ride="carousel">
+                <ol className="carousel-indicators">
+                    {React.Children.map(children ,(element, index) => {
+                        if (index === 0) {
+                            return <li data-target="#carouselExampleIndicators" data-slide-to={index} className="active"></li>
+                        } else {
+                            return <li data-target="#carouselExampleIndicators" data-slide-to={index}></li>
+                        }
+                    })}
+                    
+                    
+                    {/* <li data-target="#carouselExampleIndicators" data-slide-to="2"></li> */}
+                </ol>
+                <div className="carousel-inner rounded">
+                    { children }
                 </div>
-                <div className="pagination w-100 justify-content-center p-2">
-                    <i class="fa-solid fa-circle m-1 text-white circle-size"></i>
-                    <i class="fa-solid fa-circle m-1 text-white circle-size"></i>
-                </div>
+                <a className="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                    <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span className="sr-only">Previous</span>
+                </a>
+                <a className="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                    <span className="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span className="sr-only">Next</span>
+                </a>
             </div>
-        </div>
+        </>
     );
-}
+};
 
 export default MyProjects;

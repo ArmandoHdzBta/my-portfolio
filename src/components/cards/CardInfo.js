@@ -1,5 +1,4 @@
 import './cardInfo.css'
-import avatar from '../../images/avatar.jpg'
 
 const CardInfo = () => {
     return (
@@ -7,10 +6,13 @@ const CardInfo = () => {
             <div className='pr-3'>
                 <h2>Armando Hernández</h2>
                 <h4 className='text-subtitle'>Desarrollador FullStack</h4>
-                <p className='text-info'>Ingeniero en Software con experiencia en el desarollo web.</p>
+                <p className='text-info'>
+                    Desarrollador proactivo con entusiasmo por aprender nuevas cosas que favorezcan mi 
+                    desarrollo profesional.
+                </p>
             </div>
             <label className='avatar rounded-circle'>
-                <img src={avatar} alt="avatar" className="avatar-img w-100" />
+                <img src="https://avatars.githubusercontent.com/ArmandoHdzBta" alt="avatar" className="avatar-img w-100" />
             </label>
         </div>
     );
