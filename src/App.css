@@ -2,5 +2,6 @@ body {
     /* background-image: radial-gradient( 90% 610px at 5.2% 51.6%,  rgba(5,8,114,1) 0%, rgba(7,3,53,1) 97.5% ); */
     /* background: linear-gradient(150deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgb(0, 183, 219) 100%); */
     background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgb(0, 183, 219) 100%);
+    background-attachment: fixed;
     /* backdrop-filter: blur(1.5rem); */
 }

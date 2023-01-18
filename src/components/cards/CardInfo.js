@@ -7,8 +7,8 @@ const CardInfo = () => {
                 <h2>Armando Hernández</h2>
                 <h4 className='text-subtitle'>Desarrollador FullStack</h4>
                 <p className='text-info'>
-                    Desarrollador proactivo con entusiasmo por aprender nuevas cosas que favorezcan mi 
-                    desarrollo profesional.
+                    Desarrollador proactivo con ganas por aprender nuevas cosas que favorezcan mi 
+                    desarrollo profesional. Entusiasta, comprometido, tenaz.
                 </p>
             </div>
             <label className='avatar rounded-circle'>
